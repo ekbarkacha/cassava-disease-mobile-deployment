@@ -20,7 +20,7 @@ Thumbs.db
 
 # Android Studio
 # Built application files
-*.apk
+# *.apk
 *.aar
 *.ap_
 *.aab
