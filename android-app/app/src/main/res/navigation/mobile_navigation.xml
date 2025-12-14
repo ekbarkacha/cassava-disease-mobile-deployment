@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.ek.cassavacare.HomeFragment"
+        android:label="Home"
+        app:menu="@menu/bottom_nav_menu" >
+
+        <!-- Action to Scan -->
+        <action
+            android:id="@+id/action_home_to_scan"
+            app:destination="@id/navigation_scan" />
+
+        <!-- Action to History -->
+        <action
+            android:id="@+id/action_home_to_history"
+            app:destination="@id/navigation_history" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_scan"
+        android:name="com.ek.cassavacare.ScanFragment"
+        android:label="Scan">
+
+        <!-- Allow going back to Home -->
+        <action
+            android:id="@+id/action_scan_to_home"
+            app:destination="@id/navigation_home"
+            app:popUpTo="@id/navigation_home"
+            app:popUpToInclusive="false"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.ek.cassavacare.HistoryFragment"
+        android:label="History">
+
+        <!-- Allow going back to Home -->
+        <action
+            android:id="@+id/action_history_to_home"
+            app:destination="@id/navigation_home"
+            app:popUpTo="@id/navigation_home"
+            app:popUpToInclusive="false"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_info"
+        android:name="com.ek.cassavacare.InfoFragment"
+        android:label="Info" />
+</navigation>

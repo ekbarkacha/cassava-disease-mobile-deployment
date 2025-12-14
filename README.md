@@ -6,6 +6,10 @@
 ![ONNX](https://img.shields.io/badge/ONNX-Enabled-green)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
+<p align="center">
+  <img src="docs\screenshots\banner.png" alt="CassavaCare Banner" width="100%" />
+</p>
+
 This repository contains the **full mobile deployment pipeline** for the Cassava Leaf Disease Classification system. It includes:
 
 1. PyTorch → ONNX → TensorFlow Lite model conversion  
@@ -98,9 +102,9 @@ To ensure compatibility during conversion and Android deployment, the following 
 
 ### **Android Development**
 
-* **Android Studio:** Giraffe+ (AGP 8+)
-* **Minimum Android SDK:** 23
-* **Target SDK:** 33+
+* **Android Studio:** Ladybug | 2024.2.1 Patch 2
+* **Minimum Android SDK:** 26
+* **Target SDK:** 35
 
 For full reproducibility, refer to:
 
@@ -216,6 +220,28 @@ You can directly install the application using:
 ```text
 docs/cassava-disease-app.apk
 ```
+
+---
+## Screenshots
+
+<p align="center">
+      <img src="docs/screenshots/screenshot_1.jpg"
+            alt="CassavaCare Splash Screen"
+            height="300" />
+      <img src="docs/screenshots/screenshot_2.jpg"
+            alt="CassavaCare Dashboard"
+            height="300" />
+      <img src="docs/screenshots/screenshot_3.jpg"
+            alt="CassavaCare Camera"
+            height="300" />
+      <img src="docs/screenshots/screenshot_4.jpg"
+            alt="CassavaCare History"
+            height="300" />
+      <img src="docs/screenshots/screenshot_5.jpg"
+            alt="CassavaCare Diseases"
+            height="300" />
+</p>
+
 
 ---
 
