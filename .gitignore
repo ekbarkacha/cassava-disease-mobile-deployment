@@ -7,6 +7,7 @@ __pycache__/
 # Folders
 models/
 venv/
+android-app/
 
 # Jupyter
 .ipynb_checkpoints/
