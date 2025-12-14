@@ -210,12 +210,21 @@ android-app/app/src/main/assets/cassava_model.tflite
 
 ---
 
-## APK Download
+## App Download Options
 
-You can directly install the application using:
+### Option 1: Google Play Store (Recommended)
+
+You can download and install the official release from [Google Play (CassavaCare)](https://play.google.com/store/apps/details?id=com.ek.cassavacare)
+
+---
+
+### Option 2: Direct APK Installation
+
+You can also directly download and install the application APK from [here](./docs/cassava-disease-app.apk):
 
 ```text
 docs/cassava-disease-app.apk
+
 ```
 
 ---
