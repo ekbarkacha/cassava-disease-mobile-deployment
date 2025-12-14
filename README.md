@@ -66,9 +66,6 @@ cassava-disease-mobile-deployment/
 │
 └── docs/
     ├── screenshots/
-    │   ├── splash.png
-    │   ├── camera.png
-    │   └── prediction.png
     │
     ├── test_image/
     │   └── train-cbb-0.jpg
